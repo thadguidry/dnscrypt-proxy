@@ -13,7 +13,7 @@ require (
 	github.com/jedisct1/dlog v0.0.0-20230211133026-0338add8743f
 	github.com/jedisct1/go-clocksmith v0.0.0-20230211133011-392c1afea73e
 	github.com/jedisct1/go-dnsstamps v0.0.0-20230211133001-124a632de565
-	github.com/jedisct1/go-hpke-compact v0.0.0-20230211184420-51d4440017ce
+	github.com/jedisct1/go-hpke-compact v0.0.0-20230811132953-4ee502b61f80
 	github.com/jedisct1/go-minisign v0.0.0-20230211184525-1f273d8dc776
 	github.com/jedisct1/xsecretbox v0.0.0-20230211185120-2025cdbb9f0f
 	github.com/k-sone/critbitgo v1.4.0
@@ -21,9 +21,9 @@ require (
 	github.com/miekg/dns v1.1.53
 	github.com/powerman/check v1.7.0
 	github.com/quic-go/quic-go v0.33.0
-	golang.org/x/crypto v0.8.0
-	golang.org/x/net v0.9.0
-	golang.org/x/sys v0.7.0
+	golang.org/x/crypto v0.31.0
+	golang.org/x/net v0.25.0
+	golang.org/x/sys v0.28.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
@@ -43,9 +43,10 @@ require (
 	github.com/quic-go/qtls-go1-20 v0.1.1 // indirect
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	golang.org/x/exp v0.0.0-20221205204356-47842c84f3db // indirect
-	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 	google.golang.org/grpc v1.53.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
